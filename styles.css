@@ -1,0 +1,216 @@
+/* body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+/* body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+  height: 100%;
+}
+
+.box {
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+  padding: 20px 10px;
+}
+
+.inside-box {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  border: 5px dashed red;
+} */
+
+/* .box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: inline-block;
+} */
+
+/* <!-- Position fixed --> */
+/* body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 400%;
+  background-color: red;
+}
+
+#boxOne {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  position: static;
+}
+
+#boxTwo {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  position: fixed;
+  right: 10px;
+} */
+
+/* Absolute-relative */
+/* body {
+  height: 400%;
+  background-color: red;
+}
+
+.abs-box {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  position: relative;
+}
+
+.abs-child {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+} */
+
+/* .father {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} */
+
+/* input {
+  border: 1px solid black;
+}
+
+input[required="required"] {
+  background-color: red;
+}
+
+/* .box:last-child {
+  background-color: pink;
+}
+
+.box:first-child {
+  background-color: blue;
+}
+
+.box:nth-child(3n + 2) {
+  background-color: red;
+} */
+
+/* .container > .box {
+  background-color: yellow;
+}
+
+.box {
+  border: 1px solid yellow;
+}
+
+.box {
+  background-color: green;
+  display: block;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.child {
+  width: 40px;
+}  */
+
+/* .box {
+  background-color: red;
+  font-size: 40px;
+}
+
+.box:hover {
+  background-color: pink;
+}
+
+.box:active {
+  background-color: green;
+}
+
+.box:focus {
+  background-color: blue;
+} */
+
+/* .box {
+  background-color: green;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+  background-color: red;
+  color: blue;
+} */
+/* 
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 0.5s ease-in-out;
+  /* animation: 2.5s shit2 infinite ease-in-out;
+} 
+*/
+
+/* .box:hover {
+  transform: rotate(1turn) scale(1);
+} */
+
+/* @keyframes shit2 {
+ from {
+    transform: none;
+  }
+  to {
+    transform: rotate(1turn) scale(0.5, 0.5);
+  } 
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(1turn) scale(0.5, 0.5);
+    color: white;
+  }
+  100% {
+    transform: none;
+    color: blue;
+  }
+} */
+
+body {
+  background-color: green;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  body {
+    background-color: blue;
+  }
+}
